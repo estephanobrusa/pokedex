@@ -10,23 +10,23 @@ A mobile Pokédex app built with React Native and Expo, featuring a Pokémon bro
 
 ### Pokédex List
 
-![Pokédex List](docs/pokelist.jpeg)
+<img src="docs/pokelist.jpeg" alt="Pokédex List" height="400" />
 
 ### Pokémon Details
 
-![Pokémon Details](docs/pokelist1.jpeg)
+<img src="docs/pokelist1.jpeg" alt="Pokémon Details" height="400" />
 
 ### Who's That Pokémon? — Hidden
 
-![Who's That Pokémon? Hidden](docs/whoisthat1.jpeg)
+<img src="docs/whoisthat1.jpeg" alt="Who's That Pokémon? Hidden" height="400" />
 
 ### Who's That Pokémon? — Wrong Answer
 
-![Who's That Pokémon? Wrong](docs/whoisthat.jpeg)
+<img src="docs/whoisthat.jpeg" alt="Who's That Pokémon? Wrong" height="400" />
 
 ### Who's That Pokémon? — Correct Answer
 
-![Who's That Pokémon? Correct](docs/whoisthat2.jpeg)
+<img src="docs/whoisthat2.jpeg" alt="Who's That Pokémon? Correct" height="400" />
 
 ---
 
