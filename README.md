@@ -10,11 +10,11 @@ A mobile Pokédex app built with React Native and Expo, featuring a Pokémon bro
 
 ### Pokédex List
 
-<img src="docs/pokelist.jpeg" alt="Pokédex List" height="400" />
+<img src="docs/pokelist1.jpeg" alt="Pokémon Details" height="400" />
 
 ### Pokémon Details
 
-<img src="docs/pokelist1.jpeg" alt="Pokémon Details" height="400" />
+<img src="docs/pokelist.jpeg" alt="Pokédex List" height="400" />
 
 ### Who's That Pokémon? — Hidden
 
@@ -103,33 +103,6 @@ npx expo start
 
 Then scan the QR code with Expo Go (Android) or the Camera app (iOS).
 
----
-
-## 📐 Architecture Highlights
-
-- **File-based routing** via Expo Router — screens are defined by file structure under `app/`
-- **Infinite scroll** — `usePokemon` hook batch-fetches 20 Pokémon per page with `Promise.all`
-- **Modal bottom sheet** — details screen uses native iOS sheet with `sheetAllowedDetents` (30% / 60%)
-- **Animated stats** — `StatsChart` uses `React Native Animated API` with staggered entry (80ms per stat)
-- **Type theming** — all 18 Pokémon types are mapped to hex colors, applied to cards and detail backgrounds
-- **Uncontrolled input pattern** — the guessing game uses `useRef` for the text value to avoid re-renders on every keystroke (React 19 compatibility)
-
----
-
-## 🌱 Learning Goals
-
-This project was built to learn and practice:
-
-- React Native fundamentals and layout system
-- Expo Router for file-based mobile navigation
-- Custom hooks for data fetching and state management
-- React Native Animated API for smooth UI animations
-- Consuming a public REST API (PokéAPI)
-- TypeScript in a React Native context
-- Cross-platform considerations (iOS vs Android behavior)
-
----
-
 ## 📡 Data Source
 
 All Pokémon data is fetched from [PokéAPI](https://pokeapi.co) — a free, open Pokémon REST API. No API key required.
@@ -137,4 +110,3 @@ All Pokémon data is fetched from [PokéAPI](https://pokeapi.co) — a free, ope
 # license
 
 MIT License
-
